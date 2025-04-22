@@ -1,2 +1,10 @@
 console.log("Hello")
 document.write("Hey Its Talha")
+//alert("Run niggaaa")
+let num = prompt("Enter a number : ")
+let num1 = prompt("Enter a number : ")
+num = parseInt(num,10)
+num1 = parseInt(num1,10)
+let sum = num+num1
+alert("Sum is : "+sum)
+document.write("<br/>Sum of entered number : " + sum)
