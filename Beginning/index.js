@@ -8,3 +8,9 @@ num1 = parseInt(num1,10)
 let sum = num+num1
 alert("Sum is : "+sum)
 document.write("<br/>Sum of entered number : " + sum)
+let s
+s = prompt("Your name : ")
+alert("My name is " + s)
+document.write("<br/>Entered name is : " + s.toUpperCase())
+document.write("<br/>Entered name after slice : " + s.slice(0, 5))
+document.write(`This is written to test the String Template`)
