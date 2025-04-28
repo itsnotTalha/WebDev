@@ -1,0 +1,29 @@
+1: Storage
+- Name
+- Age
+- Gender
+- Contact
+- Blood Group
+- Med History
+- Reports
+- Medicine
+- Doctors
+- Next Appointment
+
+2: Patient extends to Storage
+- Password
+- UserName
+- Edit info
+- Read info
+- Constructor(Name, age, gender, Contact)
+
+3: Doctors extends to Storage
+- UserName
+- Password
+- Patient
+- Degree
+- Read Patient()
+- Read Reports()
+- update Reports
+
+
